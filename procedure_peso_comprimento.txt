@@ -1,0 +1,24 @@
+DELIMITER $$
+CREATE PROCEDURE p_c(
+IN tag_ VARCHAR(200),
+IN tabela VARCHAR(200)
+)
+BEGIN
+DROP TABLE IF EXISTS tempor;
+SET @reque = CONCAT('CREATE TABLE tempor SELECT peso AS P, comp AS C, tag AS T, especie AS E FROM ', tabela,' WHERE tag = "',tag_, '"');
+PREPARE stmt FROM @reque;
+EXECUTE stmt; 
+DEALLOCATE PREPARE stmt;
+IF (SELECT P FROM tempor) = NULL
+THEN
+SET @troca = (SELECT multi_a FROM formula INNER JOIN tempor ON especie = tempor.E) * POWER((SELECT C FROM tempor), (SELECT expo_b FROM formula INNER JOIN tempor ON especie = tempor.E));
+SET @resu = CONCAT('UPDATE ',tabela,' SET peso = @troca WHERE tag = (SELECT T FROM tempor)');
+ELSE 
+SET @troca = (SELECT multi_a FROM formula INNER JOIN tempor ON especie = tempor.E) * POWER((SELECT P FROM tempor), (SELECT expo_b FROM formula INNER JOIN tempor ON especie = tempor.E));
+SET @resu = CONCAT('UPDATE ',tabela,' SET comp = @troca WHERE tag = (SELECT T FROM tempor)');
+END IF;
+PREPARE stmt FROM @resu;
+EXECUTE stmt; 
+DEALLOCATE PREPARE stmt;
+END $$
+DELIMITER ;

@@ -1,0 +1,53 @@
+GearCode,GearName,id
+LL,Longline,1
+LLMB,Longline: With mother boat,2
+LLFB,Longline: Foreign-based,3
+LLHB,Longline: Home-based,4
+PSG,Purse seine: Large scale (over 200 MT capacity),5
+PS,Purse seine,6
+PSS,Purse seine: Small scale (less than 50 MT capacity),7
+PSD,Purse seine: Double-boats,8
+TROL,Troll,9
+TRAP,Trap,10
+SURF,Surface fisheries unclassified,11
+SPOR,Sport: Recreational fisheries (mostly rod and reel),12
+UNCL,Unclassified: Gears not reported,13
+TRAW,Trawl,14
+BBI,Baitboat: Ice-well,15
+BBF,Baitboat: Freezer,16
+BB,Baitboat,17
+HARP,Harpoon,18
+HAND,Handline,19
+PSM,Purse seine: Medium scale (between 50 and 200 MT capacity),20
+PSLB,Purse seine: Using live bait,21
+RR,Rod-and-reel,22
+MWT,Trawl: Mid-water pelagic trawl,23
+GILL,Gillnet: Drift net,24
+PSFB,Purse seine: Catching large fish,25
+PSFS,Purse seine: Catching small fish,26
+RRFB,Rod-and-reel catching large fish,27
+RRFS,Rod-and-reel catching small fish,28
+HS,Haul seine,29
+TN,Trammel net,30
+SPHL,Sport: Hand line,31
+BLL,Longline: Bottom or Deep longliners,32
+MWTD,Trawl: Mid-water paired trawl,33
+TL,Tended line,34
+LLALB,Longline: targeting ALB (Spain),35
+LLJAP,Longline: japanese (Spain),36
+LLPB,"Longline:""Stone-ball"" (Spain)",37
+GILLM,Gillnet: Drift nets - misto (used by Italy),38
+LLBFT,Longline: Targetting BFT (used by Italy),39
+LLSWO,Longline: Targetting SWO (used by Italy),40
+LL-deri,Longline: Derivante(used by Italy),41
+LL-surf,Longline: Surface(used by Italy),42
+TRAPM,Trap: non-fixed trap,43
+GILLALB,Gillnet: Targetting ALB,44
+GILLSWO,Gillnet: Targetting SWO,45
+BBALB,Baitboat: Targgetting ALB,46
+LLD,Longline: DISCARDS,47
+TLD,Tended line: DISCARDS,48
+RRD,Sport: Rod-and-reel DISCARDS,49
+GILD,Gillnet: DISCARDS,50
+UNCD,Unclassified: DISCARDS,51
+RRSD,Sport: Rod-and-reel DISCARDS (small vessels),52

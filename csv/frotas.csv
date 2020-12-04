@@ -1,0 +1,466 @@
+FleetCode,FleetName,id
+UNCL.FLEETS,OTHERS (Unclassified fleets),1
+DZA,Algerie,2
+DZA-JPN,Algerie(Japan),3
+DZA-KOR,Algerie(Korea),4
+DZA-TUR,Algerie(Turkey),5
+ARG,Argentina,6
+BRA-BRB,Brazil (Barbados),7
+BRA-BOL,Brazil (Bolivia),8
+BRA-BOL-NATAL,Brazil (Bolivia - Natal),9
+BRA,Brazil,10
+BRA-BRA-RECIFE,Brazil (based in Recife),11
+BRA-BRA-ITAJAI,Brazil (based in Itajai),12
+BRA-BRA-CABDELO,Brazil (based in Cabedelo),13
+BRA-BRA-NATAL,Brazil (based in Natal),14
+BRA-BRA-RGRANDE,Brazil (based in Rio Grande),15
+BRA-BRA-SANTOS,Brazil (based in Santos),16
+BRA-BRA-RJANERO,Brazil (based in R. Janeiro),17
+BRA-BRA-BELEM,Brazil (based in Belem),18
+BRA-BRA-ITAIPAVA,Brazil (based in Itaipava),19
+BRA-BRA-VITORIA,Brazil (based in Vitoria),20
+BRA-BRA-FNORONHA,Brazil (based in Fernando de Noronha),21
+BRA-BRA-SPAULO,Brazil (based in Sao Paulo),22
+BRA-BRA-FORTALEZA,Brazil (based in Fortaleza),23
+BRA-BRA-ALCOBAÇA,Brazil (based in Alcobaça),24
+BRA-BRA-ANCHIETA,Brazil (based in Anchieta),25
+BRA-BRA-ADOSREIS,Brazil (based in Angra Dos Reis),26
+BRA-BRA-GUARAPARI,Brazil (based in Guarapari),27
+BRA-BRA-NAVEGANTES,Brazil (based in Navegantes),28
+BRA-BRA-PIUMA,Brazil (based in Piuma),29
+BRA-BRA-PIVUS,Brazil (based in Pivus),30
+BRA-BRA-SCRUZ,Brazil (based in Santa Cruz),31
+BRA-BRA-PBELO,Brazil (based in Porto Belo),32
+BRA-BRA-CFRIO,Brazil (based in Cabo Frio),33
+BRA-BRA-CAMOCIM,Brazil (based in Camocim),34
+BRA-BRA-SLUIS,Brazil (based in São Luís),35
+BRA-BRA-PARNAIBA,Brazil (based in Parnaíba),36
+BRA-BRA-SALVADOR,Brazil (based in Salvador),37
+BRA-BRA-PESSOA,Brazil (based in Joao Pessoa),38
+BRA-BRA-ESPIRITO,Brazil (based in Espirito Santo),39
+BRA-BRA-NITEROI,Brazil (based in Niteroi),40
+BRA-BRA-ARACAJU,Brazil (based in Aracaju),41
+BRA-BLZ,Brazil (Belize),42
+BRA-CAN,Brazil (Canada),43
+BRA-CAN-NATAL,Brazil (Canada - Natal),44
+BRA-ECU-NATAL,Brazil (Ecuador - Natal),45
+BRA-ESP,Brazil (España),46
+BRA-ESP-CABDELO,Brazil (España - Cabedelo),47
+BRA-ESP-NATAL,Brazil (España - Natal),48
+BRA-ESP-SANTOS,Brazil (España - Santos),49
+BRA-GBR,Brazil (United Kingdom),50
+BRA-GBR-NATAL,Brazil (United Kingdom - Natal),51
+BRA-GBR-CABDELO,Brazil (United Kingdom - Cabedelo),52
+BRA-GNQ,Brazil (Eq. Guinea),53
+BRA-GUY,Brazil (Guyan),54
+BRA-GUY-NATAL,Brazil (Guyan - Natal),55
+BRA-HND,Brazil (Honduras),56
+BRA-HND-CABDELO,Brazil (Honduras - Cabedelo),57
+BRA-HND-NATAL,Brazil (Honduras - Natal),58
+BRA-HND-SANTOS,Brazil (Honduras - Santos),59
+BRA-HND-ITAJAI,Brazil (Honduras - Itajai),60
+BRA-HND-RGRANDE,Brazil (Honduras - Rio Grande),61
+BRA-ISL,Brazil (Iceland),62
+BRA-ISL-NATAL,Brazil (Iceland - Natal),63
+BRA-JPN,Brazil (Japan),64
+BRA-JPN-NATAL,Brazil (Japan - Natal),65
+BRA-JPN-ITAJAI,Brazil (Japan - Itajai),66
+BRA-KNA-NATAL,Brazil (S. Kitts & Nevis - Natal),67
+BRA-KNA-CABDELO,Brazil (S. Kitts & Nevis - Cabedelo),68
+BRA-KNA-RECIFE,Brazil (S. Kitts & Nevis - Recife),69
+BRA-KOR,Brazil (Korea),70
+BRA-CYM,Brazil (Cayman Islands),71
+BRA-MAR,Brazil (Maroc),72
+BRA-MAR-NATAL,Brazil (Maroc - Natal),73
+BRA-MAR-RECIFE,Brazil (Maroc - Recife),74
+BRA-PAN,Brazil (Panama),75
+BRA-PAN-CABDELO,Brazil (Panama - Cabedelo),76
+BRA-PAN-NATAL,Brazil (Panama - Natal),77
+BRA-PAN-RECIFE,Brazil (Panama - Recife),78
+BRA-PRT,Brazil (Portugal),79
+BRA-PRT-CABDELO,Brazil (Portugal-Cabedelo),80
+BRA-PRT-NATAL,Brazil (Portugal-Natal),81
+BRA-TAI,Brazil (Taipei),82
+BRA-USA,Brazil (USA),83
+BRA-USA-NATAL,Brazil (USA - Natal),84
+BRA-URY,Brazil (Uruguay),85
+BRA-URY-ITAJAI,Brazil (Uruguay - Itajai),86
+BRA-URY-CABDELO,Brazil (Uruguay - Cabedelo),87
+BRA-URY-NATAL,Brazil (Uruguay - Natal),88
+BRA-VCT,Brazil (St. Vincent),89
+BRA-VCT-NATAL,Brazil (St. Vincent Natal),90
+BRA-VUT,Brazil (Vanuatu),91
+BRA-VUT-NATAL,Brazil (Vanuatu Natal),92
+CAN,Canada,93
+CAN-JPN,Canada (Japan),94
+TAI,Chinese Taipei,95
+CUB,Cuba,96
+EU.DNK,EU.Denmark,97
+EU.FRA,EU.France,98
+EU.FRA-FR,EU.France (Mainland),99
+EU.FRA-FR-GP,EU.France (based in Guadaloupe),100
+EU.FRA-FR-MQ,EU.France (based in Martinique),101
+EU.FRA-FR-ETRO,EU.France (East Tropical fleet),102
+EU.FRA-MED,EU.France (Medi),103
+EU.FRA-FR-FauxP,EU.France (ETRO: Faux Poissons),104
+EU.DEU,EU.Germany,105
+EU.RFA,EU.Germany Fed. Rep.,106
+EU.GRC,EU.Greece,107
+EU.ITA,EU.Italy,108
+EU.ITA-IT-TY.LI,EU.Italy (Tyrreniam + Ligurian seas),109
+EU.ITA-IT-SIC.ST,EU.Italy (Strait of Sicily),110
+EU.ITA-IT-ADRIAT,EU.Italy (Adriatic sea),111
+EU.ITA-IT-ADRI.C,EU.Italy (Central Adriatic sea),112
+EU.ITA-IT-ADRI.S,EU.Italy (South Adriatic sea),113
+EU.ITA-IT-IONIAN,EU.Italy (Ionian sea),114
+EU.ITA-IT-IONI.N,EU.Italy (North Ionian sea),115
+EU.ITA-IT-IONI.S,EU.Italy (South Ionian sea),116
+EU.ITA-IT-LIGURY,EU.Italy (Ligurian sea),117
+EU.ITA-IT-SARDHA,EU.Italy (Sardenha),118
+EU.ITA-IT-TYRREN,EU.Italy (Tyrrenean sea),119
+EU.ITA-IT-TYRR.N,EU.Italy (North Tyrrenean sea),120
+EU.ITA-IT-TYRR.S,EU.Italy (South Tyrrenean sea),121
+EU.ITA-IT-TYRR.C,EU.Italy (Central Tyrrenean sea),122
+JPN,Japan,123
+KOR,Korea Rep.,124
+KOR-KR-ETRO,Korea (ETRO),125
+KOR-MLT,Korea (Malta),126
+LBY,Libya,127
+EU.MLT,EU.Malta,128
+MAR,Maroc,129
+NOR,Norway,130
+EU.POL,EU.Poland,131
+EU.PRT-JAPAN,EU.Portugal (Japan),132
+EU.PRT,EU.Portugal,133
+EU.PRT-PT-MAINLND,EU.Portugal (Mainland),134
+EU.PRT-PT-AZORES,EU.Portugal (Azores),135
+EU.PRT-PT-MADEIRA,EU.Portugal (Madeira),136
+ZAF-ESP,South Africa (Spain),137
+ZAF-IDN,South Africa (Indonesia),138
+ZAF-ISL,South Africa (Iceland),139
+ZAF-JPN,South Africa (Japan),140
+ZAF-KOR,South Africa (Korea),141
+ZAF-NAM,South Africa (Namibia),142
+ZAF-PAN,South Africa (Panama),143
+ZAF-PHL,South Africa (Philipinnes),144
+ZAF-SYC,South Africa (Seychelles),145
+ZAF-VCT,South Africa (St. Vincent),146
+ZAF,South Africa,147
+EU.ESP,EU.España,148
+EU.ESP-ES-CANARY,EU.España (Canary Isl.),149
+EU.ESP-ES-CANT_BFT,EU.España (Cantabrian sea) target BFT,150
+EU.ESP-ES-SWO,EU.España Target SWO,151
+EU.ESP-ES-MEDI_SWO,EU.España (Mediterranean) Target SWO,152
+EU.ESP-ES-CANT_ALB,EU.España (Cantabrian sea) Target ALB,153
+EU.ESP-ES-ETRO,EU.España (East tropical fishery),154
+EU.ESP-ES-MEDI_PS,EU.España (Mediterranean) PS,155
+EU.ESP-ES-MEDI_SPOR,EU.España (Mediterranean) SPORT,156
+EU.ESP-CANT_CDZ_ALB,EU.España (Cantabric V. in G. Cadiz) Target ALB,157
+EU.ESP-CANT_AZS_ALB,EU.España (Cantabric V. in Azores) Target ALB,158
+EU.ESP-ES-MEDI,EU.España (Mediterranean Ports),159
+EU.ESP-ES-FauxP,EU.España (ETRO: Faux Poissons),160
+EU.SWE,EU.Sweden,161
+TUN-FRA,Tunisie (France),162
+TUN-LBY,Tunisie (Libya),163
+TUN,Tunisie,164
+TUN-TUN-MONAST,Tunisie (Monastir based),165
+TUN-TUN-SFAX,Tunisie (Sfax based),166
+TUN-TUN-KELIBIA,Tunisie (Kélibia based),167
+TUN-TUN-SOUSSE,Tunisie (Sousse based),168
+TUN-TUN-MAHDIA,Tunisie (Mahdia based),169
+TUN-TUN-GABES,Tunisie (Gabes based),170
+TUN-TUN-ZARZIS,Tunisie (Zarzis based),171
+TUN-TUN-BIZERTE,Tunisie (Bizerte based),172
+TUR,Turkey,173
+USA,U.S.A.,174
+USA-Com,USA (commercial),175
+USA-Rec,USA (recreational),176
+YUG,Yugoslavia Fed.,177
+GHA,Ghana,178
+GHA.BASED,Ghana (Ghanian based),179
+GHA.LOCMARK,Ghana (Ghanian local market),180
+GHA-ETRO-A,Ghana (ETRO National Vessels),181
+GHA-ETRO-P,Ghana (ETRO Panofi),182
+PAN,Panama,183
+PAN-PAN-TTO,Panama (Trinidad&Tobago),184
+PAN-PAN-ETRO,Panama (ETRO fleet),185
+PAN-PAN-GHA,Panama(Ghana),186
+PAN-PAN-SEN,Panama(Senegal),187
+PAN-PAN-SUR,Panama(Suriname),188
+PAN-PAN-CIV,Panama(C.Ivorie),189
+VEN,Venezuela,190
+VEN-FOR.FLTS,Venezuela (foreign based),191
+VEN.ARTISANAL,Venezuela (Artisanal fleet),192
+VEN.INDUSTRIAL,Venezuela (Industrial fleet),193
+GRD,Grenada,194
+MEX,Mexico,195
+AGO,Angola,196
+AGO-ESP,Angola (ESP),197
+AGO-FRA,Angola (FRA),198
+AGO-JPN,Angola (JPN),199
+SUN,U.S.S.R.,200
+DOM,Dominican Republic,201
+ISR,Israel,202
+LBN,Lebanon,203
+SLE-BRA,Sierra Leone (Brazil),204
+SLE-BLZ,Sierra Leone (Belize),205
+SLE-CHN,Sierra Leone (China),206
+SLE-CPV,Sierra Leone (Cap Vert),207
+SLE-CUW,Sierra Leone (Curaçao),208
+SLE-EST,Sierra Leone (Estonia),209
+SLE-ESP,Sierra Leone (España),210
+SLE-FRA,Sierra Leone (France),211
+SLE-GHA,Sierra Leone (Ghana),212
+SLE-GTM,Sierra Leone (Guatemala),213
+SLE-PAN,Sierra Leone (Panama),214
+SLE,Sierra Leone,215
+SLE-TAI,Sierra Leone (Chinese Taipei),216
+TTO,Trinidad and Tobago,217
+TTO-TTO-TRINID,Trinidad,218
+TTO-TTO-TOBAG,Tobago,219
+URY-JPN,Uruguay (Japan),220
+URY,Uruguay,221
+VIR,US Virgin Islands,222
+EU.BGR,EU.Bulgaria,223
+EU.CYP,EU.Cyprus,224
+DDR,Germany Democratic Rep.,225
+CIV,Côte D'Ivoire,226
+CIV-ABIDJAN,Côte D'Ivoire (based in Abidjan),227
+CIV-S.PEDRO,Côte D'Ivoire (based in S. Pedro),228
+CIV-CIV-KOREA,Côte D'Ivoire (Korea),229
+CIV-CI-ETRO,Côte D'Ivoire (ETRO),230
+LBR,Liberia,231
+ROU,Rumania,232
+SEN,Senegal,233
+SEN-SEN-DAKAR,Senegal (based in Dakar),234
+SEN-SEN-Art,Senegal (artisanal),235
+SEN-SEN-CVERT,Senegal (Cap Vert),236
+PRI,Puerto Rico,237
+EGY,Egypt,238
+UK.SHN,Sta. Helena,239
+COL,Colombia,240
+BRB,Barbados,241
+SYR,Syria,242
+CPV,Cape Verde,243
+CPV-Ind,Cape Verde (Industrial),244
+CPV-Art,Cape Verde (Artisanal),245
+CPV-ETRO,Cape Verde (ETRO),246
+EU.IRL,EU.Ireland,247
+BEN,Benin,248
+GAB,Gabon,249
+COG,Congo,250
+EU.NLD,EU.Netherlands,251
+HND,Honduras,252
+TGO,Togo,253
+CYM,Cayman Islands,254
+CUW,Curaçao,255
+CUW-CW-ETRO,Curaçao (ETRO fleet),256
+LCA,Sta. Lucia,257
+STP,S. Tomé e Príncipe,258
+STP-Art,S. Tomé e Príncipe (Artisanal),259
+STP-Ind,S. Tomé e Príncipe (Industrial),260
+GNQ-ESP,Guinea Ecuatorial (Spain),261
+GNQ,Guinea Ecuatorial,262
+GNQ.ARTESANAL,Guinea Ecuatorial (Artisanal fleet),263
+GNQ.INDUSTRIAL,Guinea Ecuatorial (Industrial fleet),264
+MRT,Mauritania,265
+UK.BMU,UK.Bermuda,266
+CMR,Cameroon,267
+NGA,Nigeria,268
+ABW,Aruba,269
+GNB,Guinea Bissau,270
+EU.HRV,EU.Croatia,271
+EU.HRV-ADR,EU.Croatia (Adriatic),272
+RUS,Russian Federation,273
+RUS-RU-MURMANSK,Russian Federation (Murmansk),274
+RUS-RU-KALININGRAD,Russian Federation (Kaliningrad),275
+GIN,Guinée Rep.,276
+GIN-GN-ETRO,Guinée Rep (ETRO fleet),277
+UKR,Ukraine,278
+VCT-TTO,S. Vincent (Trinidad and Tobago),279
+VCT,S. Vincent and Grenadines,280
+VCT-FOR.FLTS,S. Vincent (foreign based),281
+VCT-VC-ETRO,S.Vincent (ETRO),282
+EU.UK,EU.United Kingdom,283
+NAM,Namibia,284
+ATG,Antigua and Barbuda,285
+JAM,Jamaica,286
+DMA,Dominica,287
+CHN,China P.R.,288
+CHN.CHN.HKG,China P.R. (Hong Kong),289
+GUY,Guyana,290
+BLZ,Belize,291
+BLZ-ETRO,Belize (ETRO),292
+BLZ-CIV,Belize(C.Ivoire),293
+BLZ-ESP,Belize(España),294
+BLZ-GHA,Belize(Ghana),295
+BLZ-JPN,Belize(Japan),296
+BLZ-NAM,Belize(Namibia),297
+BLZ-SEN,Belize(Senegal),298
+BLZ-TTO,Belize(Trinidad&Tobago),299
+BLZ-URY,Belize(Uruguay),300
+BLZ-ZAF,Belize(S.Africa),301
+CRI,Costa Rica,302
+EU.EST,EU.Estonia,303
+EU.EST.EE.Vigo,EU.Estonia (based in Vigo),304
+GEO,Georgia,305
+EU.LVA,EU.Latvia,306
+EU.LTU,EU.Lithuania,307
+GMB,Gambia,308
+ALB,Albania,309
+SCG,Serbia & Montenegro,310
+SRB,Serbia,311
+MNE,Montenegro,312
+ISL,Iceland,313
+BLR,Belarus,314
+FRO,Faroe Islands,315
+PHL,Philippines,316
+PHL-PHL-MANILA,Philippines (based in Manila),317
+KHM,Cambodia,318
+FLK,Falklands,319
+FR.SPM-CAN,FR-Saint Pierre et Miquelon(Canada),320
+FR.SPM,FR-Saint Pierre et Miquelon,321
+PSE,Palestina,322
+PSE-PSE-GAZA.ST,Palestina (Gaza strip),323
+SYC,Seychelles,324
+KNA,St. Kitts and Nevis,325
+KNA-KNA-ST.KITTS,St. Kitts and Nevis (St. Kitts based),326
+KNA-KNA-NEVIS,St. Kitts and Nevis (Nevis based),327
+MUS,Mauritius,328
+IND,India,329
+VUT,Vanuatu,330
+VUT-VU-ETRO,Vanuatu (ETRO),331
+IRN,Iran Islamic Rep.,332
+MYS,Malaysia,333
+GTM,Guatemala,334
+GTM.ETRO,Guatemala (ETRO fleet),335
+SLV,El Salvador,336
+AIA,Anguilla,337
+UK.TCA,Turks and Caicos Islands,338
+UK.TCA-USA,Turks and Caikos (USA),339
+UK.TCA-CYM,Turks and Caikos (Cayman Isl.),340
+UK.TCA-VGB,Turks and Caicos (British Virgin Isl.),341
+EU.BEL,EU.Belgium,342
+UK.VGB,UK.British Virgin Islands,343
+THA,Thailand,344
+CHL,Chile,345
+NI.NIC,Nicaragua,346
+BS.BHS,Bahamas,347
+SUR,Suriname,348
+SUR-SR-PAN,Suriname(Panama),349
+ECU,Ecuador,350
+AUS,Australia,351
+FJI,Fiji Islands,352
+GUM,Guam,353
+IDN,Indonesia,354
+KIR,Kiribati,355
+MDV,Maldives,356
+PNG,Papua New Guinea,357
+LKA,Sri Lanka,358
+VNM,Viet Nam,359
+SGP,Singapore,360
+OMN,Oman,361
+NZL,New Zealand,362
+FSM,Micronesia,363
+COK,Cook Islands,364
+BOL,Bolivia,365
+PLW,Palau,366
+TON,Tonga,367
+KEN,Kenya,368
+PYF,Polynesie Française,369
+EU.SVN,EU.Slovenia,370
+PER,Perú,371
+CHE,Switzerland,372
+TZA,Tanzania,373
+ARE,United Arab Emirates,374
+HTI,Haiti,375
+MDG,Madagascar,376
+MOZ,Mozambique,377
+WSM,Samoa,378
+SLB,Solomon Islands,379
+MHL,Marshall Islands,380
+TUV,Tuvalu,381
+EU.AUT,EU.Austria,382
+EU.CZE,EU.Czechia,383
+EU.FIN,EU.Finland,384
+EU.LUX,EU.Luxembourg,385
+EU.SVK,EU.Slovakia,386
+NEI.007,NEI (Denmark),387
+NEI.008,NEI (France),388
+NEI.010,NEI (Greece),389
+NEI.011,NEI (Italy),390
+NEI.016,NEI (Norway),391
+NEI.019,NEI (Portugal),392
+NEI.021,NEI (España),393
+NEI.028,NEI (Panama),394
+NEI.031,NEI (Mexico),395
+NEI.040,NEI (Sierra Leone),396
+NEI.042,NEI (Uruguay),397
+NEI.066,NEI (Ireland),398
+NEI.071,NEI (Honduras),399
+NEI.079,NEI (S. Tomé e Principe),400
+NEI.081,NEI (Eq. Guinea),401
+NEI.094,NEI (Guine Bissau),402
+NEI.104,NEI (Russian Fed.),403
+NEI.105,NEI (G. Conakry),404
+NEI.111,NEI (St. Vincent),405
+NEI.112,NEI (EU.GBR),406
+NEI.118,NEI (China),407
+NEI.134,NEI (Belize),408
+NEI.144,NEI (Georgia),409
+NEI.147,NEI (Gambia),410
+NEI.157,NEI (Belarus),411
+NEI.166,NEI (Cambodia),412
+NEI.172,NEI (France S. Pierre Miquellon),413
+NEI.001,NEI (ETRO),414
+NEI.001-BLZ,NEI (ETRO-BLZ),415
+NEI.001-CPV,NEI (ETRO-CPV),416
+NEI.001-CUW,NEI (ETRO-CUW),417
+NEI.001-GHA,NEI (ETRO-GHA),418
+NEI.001-GIN,NEI (ETRO-GIN),419
+NEI.001-GTM,NEI (ETRO-GTM),420
+NEI.001-ITA,NEI (ETRO-ITA),421
+NEI.001-LBR,NEI (ETRO-LBR),422
+NEI.001-MAR,NEI (ETRO-MAR),423
+NEI.001-MLT,NEI (ETRO-MLT),424
+NEI.001-MUS,NEI (ETRO-MUS),425
+NEI.001-MYS,NEI (ETRO-MYS),426
+NEI.001-NOR,NEI (ETRO-NOR),427
+NEI.001-PAN,NEI (ETRO-PAN),428
+NEI.001-SYC,NEI (ETRO-SYC),429
+NEI.001-SEN,NEI (ETRO-SEN),430
+NEI.001-SLV,NEI (ETRO-SLV),431
+NEI.001-VCT,NEI (ETRO-VCT),432
+NEI.001-VEN,NEI (ETRO-VEN),433
+NEI.001-VUT,NEI (ETRO-VUT),434
+NEI.002,NEI (Medi Uncl.),435
+NEI.COMB,NEI (Combined fleets BFT),436
+NEI.UK.OT,NEI (UK-O. Territories unclassified),437
+NEI-BIL-063,NEI-BIL (Barbados),438
+NEI-BIL-003,NEI-BIL (Brasil),439
+NEI-BIL-013,NEI-BIL (Korea),440
+NEI-BIL-051,NEI-BIL (Liberia),441
+NEI-BIL-019,NEI-BIL (EU.Portugal),442
+NEI-BIL-042,NEI-BIL (Uruguay),443
+NEI-BIL-111,NEI-BIL (S.Vincent Grenadines),444
+EU,EU (unspecified),445
+MIX.FIS,France + C. Ivoire + Senegal,446
+MIX.KR+PA,Korea + Panama,447
+MIX.FR+ES,EU.France+España,448
+MIX.EU-ETRO,MIX (NEI-ETRO),449
+JPN.REF,Japan (Reference data),450
+JPN.OB.CAN,Japan (observed by Canada),451
+JPN.OB.DZA,Japan (observed by Algeria),452
+JPN.OB.SHN,Japan (observed by Sta. Helena),453
+JPN.OB.USA,Japan (observed by USA),454
+TAI.OB.SHN,Chinese Taipei (observed by Sta. Helena),455
+HND.OB.SHN,Honduras (observed by Sta. Helena),456
+PAN.OB.SHN,Panama (observed by Sta. Helena),457
+SGP.OB.SHN,Singapore (Observed by Sta. Helena),458
+BLZ.OB.SHN,Belize (Observed by Sta. Helena),459
+SYC.OB.SHN,Seychelles (Observed by Sta. Helena),460
+GHA.ICCAT,Ghana (ICCAT program),461
+JPN.ICCAT,Japan (ICCAT program),462
+CUB.ICCAT,Cuba (ICCAT program),463
+CHN.ICCAT,China (ICCAT program),464
+RMA,RMA (GBYP),465

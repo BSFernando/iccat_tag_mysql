@@ -1,0 +1,102 @@
+LOAD DATA LOCAL INFILE ".../csv/oceans.csv"
+INTO TABLE local
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(latitude, longitude, regiao, oceano);
+
+LOAD DATA LOCAL INFILE ".../csv/localresu.csv"
+INTO TABLE localresu
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(oceano, regiao, latitude, longitude);
+
+LOAD DATA LOCAL INFILE ".../csv/petrecho.csv"
+INTO TABLE petrecho
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(sigla, descr);
+
+LOAD DATA LOCAL INFILE ".../csv/formula.csv"
+INTO TABLE formula
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(multi_a, expo_b, especie);
+
+LOAD DATA LOCAL INFILE ".../csv/frotas.csv"
+INTO TABLE frota
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(sigla, descr);
+
+LOAD DATA LOCAL INFILE ".../csv/tabre1.csv"
+INTO TABLE captura
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(tag, frot, petrec, ano, data, latitude, longitude, comp, peso, especie)
+SET tag = NULLIF(tag,''),
+frot = NULLIF(frot,''),
+petrec = NULLIF(petrec,''),
+ano = NULLIF(ano,''),
+data = NULLIF(data,''),
+latitude = NULLIF(latitude,''),
+longitude = NULLIF(longitude,''),
+comp = NULLIF(comp,''),
+peso = NULLIF(peso,''),
+especie = NULLIF(especie,'');
+
+LOAD DATA LOCAL INFILE ".../csv/tabre2.csv"
+INTO TABLE captura
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(tag, frot, petrec, ano, data, latitude, longitude, comp, peso, especie)
+SET tag = NULLIF(tag,''),
+frot = NULLIF(frot,''),
+petrec = NULLIF(petrec,''),
+ano = NULLIF(ano,''),
+data = NULLIF(data,''),
+latitude = NULLIF(latitude,''),
+longitude = NULLIF(longitude,''),
+comp = NULLIF(comp,''),
+peso = NULLIF(peso,''),
+especie = NULLIF(especie,'');
+
+LOAD DATA LOCAL INFILE ".../csv/tabre3.csv"
+INTO TABLE captura
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(tag, frot, petrec, ano, data, latitude, longitude, comp, peso, especie)
+SET tag = NULLIF(tag,''),
+frot = NULLIF(frot,''),
+petrec = NULLIF(petrec,''),
+ano = NULLIF(ano,''),
+data = NULLIF(data,''),
+latitude = NULLIF(latitude,''),
+longitude = NULLIF(longitude,''),
+comp = NULLIF(comp,''),
+peso = NULLIF(peso,''),
+especie = NULLIF(especie,'');
+
+LOAD DATA LOCAL INFILE ".../csv/tabrc.csv"
+INTO TABLE re_captura
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(tag, frot, petrec, ano, data, latitude, longitude, comp, peso, especie)
+SET tag = NULLIF(tag,''),
+frot = NULLIF(frot,''),
+petrec = NULLIF(petrec,''),
+ano = NULLIF(ano,''),
+data = NULLIF(data,''),
+latitude = NULLIF(latitude,''),
+longitude = NULLIF(longitude,''),
+comp = NULLIF(comp,''),
+peso = NULLIF(peso,''),
+especie = NULLIF(especie,'');

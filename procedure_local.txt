@@ -1,0 +1,65 @@
+DELIMITER $$
+CREATE PROCEDURE buscar_local(
+IN tag_ VARCHAR(200),
+IN tabela VARCHAR(200)
+)
+
+BEGIN
+
+DROP TABLE IF EXISTS latlon;
+DROP TABLE IF EXISTS tab;
+
+SET @ordem = CONCAT('CREATE TABLE tab SELECT * FROM ',tabela,' WHERE tag = "',tag_,'"');
+PREPARE stmt FROM @ordem;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+
+CREATE TABLE latlon SELECT (SELECT latitude FROM tab) - localresu.latitude AS lat, localresu.id, (SELECT longitude FROM tab) - localresu.longitude AS lon FROM localresu;
+
+SET @novo = (SELECT id FROM latlon ORDER BY ABS(lat) + ABS(lon) LIMIT 1);
+
+SET @ordem3 = CONCAT('UPDATE ',tabela,' SET regiao = @novo WHERE tag = (SELECT tag FROM tab)');
+PREPARE stmt3 FROM @ordem3;
+EXECUTE stmt3;
+DEALLOCATE PREPARE stmt3;
+
+DROP TABLE IF EXISTS latlon;
+DROP TABLE IF EXISTS tab;
+
+END $$
+DELIMITER ;
+
+-------------------------------------
+
+update local inner join localresu set local.id = localresu.id where local.regiao = localresu.regiao;
+
+DELIMITER $$
+CREATE PROCEDURE buscal_local_pre(
+IN tag_ VARCHAR(200),
+IN tabela VARCHAR(200)
+)
+
+BEGIN
+
+DROP TABLE IF EXISTS latlon;
+DROP TABLE IF EXISTS tab;
+
+SET @ordem = CONCAT('CREATE TABLE tab SELECT * FROM ',tabela,' WHERE tag = "',tag_,'"');
+PREPARE stmt FROM @ordem;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+
+CREATE TABLE latlon SELECT (SELECT latitude FROM tab) - local.latitude AS lat, local.id, (SELECT longitude FROM tab) - local.longitude AS lon FROM local;
+
+SET @novo = (SELECT id FROM latlon ORDER BY ABS(lat) + ABS(lon) LIMIT 1);
+
+SET @ordem3 = CONCAT('UPDATE ',tabela,' SET regiao = @novo WHERE tag = (SELECT tag FROM tab)');
+PREPARE stmt3 FROM @ordem3;
+EXECUTE stmt3;
+DEALLOCATE PREPARE stmt3;
+
+DROP TABLE IF EXISTS latlon;
+DROP TABLE IF EXISTS tab;
+
+END $$
+DELIMITER ;
